@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AI.DeveloperAssistant.API", "AI.DeveloperAssistant.API\AI.DeveloperAssistant.API.csproj", "{C7B3EBF1-3B2C-4ADA-87B7-BDA0BFD1851E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AI.DeveloperAssistant.Application", "AI.DeveloperAssistant.Application\AI.DeveloperAssistant.Application.csproj", "{0D67BDE1-AB4B-4661-9141-9C5D8FD9D76F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AI.DeveloperAssistant.Infrastructure", "AI.DeveloperAssistant.Infrastructure\AI.DeveloperAssistant.Infrastructure.csproj", "{620D256E-8741-4303-90A2-286ED96012D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{767EB12D-60B8-4FD1-A0FD-A47CA6BAE32A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7B3EBF1-3B2C-4ADA-87B7-BDA0BFD1851E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B3EBF1-3B2C-4ADA-87B7-BDA0BFD1851E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B3EBF1-3B2C-4ADA-87B7-BDA0BFD1851E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B3EBF1-3B2C-4ADA-87B7-BDA0BFD1851E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D67BDE1-AB4B-4661-9141-9C5D8FD9D76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D67BDE1-AB4B-4661-9141-9C5D8FD9D76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D67BDE1-AB4B-4661-9141-9C5D8FD9D76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D67BDE1-AB4B-4661-9141-9C5D8FD9D76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620D256E-8741-4303-90A2-286ED96012D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620D256E-8741-4303-90A2-286ED96012D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620D256E-8741-4303-90A2-286ED96012D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620D256E-8741-4303-90A2-286ED96012D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68DECF23-5A10-4DFB-9FA4-E14D2EFAA02F}
+	EndGlobalSection
+EndGlobal
