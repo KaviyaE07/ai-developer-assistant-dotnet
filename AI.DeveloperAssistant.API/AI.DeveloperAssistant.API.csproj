@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AI.DeveloperAssistant.Application\AI.DeveloperAssistant.Application.csproj" />
+    <ProjectReference Include="..\AI.DeveloperAssistant.Infrastructure\AI.DeveloperAssistant.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
