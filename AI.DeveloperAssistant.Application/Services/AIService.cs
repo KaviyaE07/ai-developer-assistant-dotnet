@@ -11,6 +11,16 @@ namespace AI.DeveloperAssistant.Application.Services
     {
         public async Task<string> GetAIResponseAsync(string userInput)
         {
+            var prompt = $@"
+                You are an expert AI assistant for software engineers.
+                Focus on:
+                - .NET
+                - Clean Architecture
+                - Real-world best practices
+
+                Question:
+                {userInput}
+           ";
             // Later we can enhance prompt here
             return await _aiProvider.GetResponseAsync(userInput);
         }
