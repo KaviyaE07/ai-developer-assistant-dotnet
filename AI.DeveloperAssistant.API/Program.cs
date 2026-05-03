@@ -10,7 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddHttpClient<IAIProvider, OpenAIProvider>();
+//builder.Services.AddHttpClient<IAIProvider, OpenAIProvider>();
+builder.Services.AddHttpClient<IAIProvider, GeminiProvider>();
 builder.Services.AddScoped<AIService>();
 
 var app = builder.Build();
